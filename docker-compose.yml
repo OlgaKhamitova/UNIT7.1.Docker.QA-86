@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  db-api-for-docker:
+    build: .
+    ports:
+      - '9998:9999'
